@@ -1,0 +1,359 @@
+//variables
+
+$red-color: #F4614C;
+$black-color: #202020;
+$font-grey: #80726B;
+$font-light-grey: #918680;
+
+* {
+	box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	max-width: 1075px;
+	margin: 0 auto; 
+}
+
+.one-column {
+	width: 98%;
+	margin: 0 1%;
+}
+
+.two-column {
+	float: left;
+	width: 50%;
+}
+
+.three-column {
+	float: left;
+	width: 31.333333%;
+	margin: 29px 1%;
+
+	img {
+		width: 100%;
+	}
+}
+
+.arrow {
+	position: relative;
+	color : black;
+	background-color: yellow;
+	font-size: 1.5em;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 35px;
+}
+
+.arrow:before {
+	content: "";
+	position: absolute;
+	left: -24px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 24px solid yellow;
+	border-bottom: 25px solid transparent;
+}
+
+.arrow:after {
+	content: "";
+	position: absolute;
+	right: -24px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 24px solid yellow;
+	border-bottom: 25px solid transparent;
+}
+
+// .arrow {
+// 	color : black;
+// 	background-color: yellow;
+// }
+
+.section-header {
+	
+	max-width: 650px;
+	margin: 28px auto;
+	border-top: 1px dashed #000;
+	border-bottom: 1px dashed #000;
+	padding: 32px;
+
+	h2 {
+		font-size: 3em;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	p {
+		color: $font-grey;
+		text-align: center;
+		font-size: 1.35em;
+		line-height: 1.8em;
+	}
+
+}
+
+header {
+	text-align: center;
+	background-color: $red-color;
+	padding: 36px 0;
+	// padding: 30px;
+
+	img {
+		padding-right: 160px;
+	}
+
+	.wrapper {
+		// float: left;
+		display: inline-block;
+		max-width: 650px;
+	}
+
+	h1 {
+		padding-bottom: 24px;
+	}
+
+	p {
+		font-size: 1.5em;
+		color: white;
+		padding-bottom: 14px;
+
+	}
+
+	.star {
+		padding-bottom: 20px;
+	}
+}
+
+nav {
+	text-align: center;
+	background-color: $black-color;
+	color: white;
+	// height: 48px;
+	margin: 0 auto;
+
+	ul {
+		display: inline-block;
+
+		li {
+			font-size: 1.1em;
+			line-height: 48px;
+			width: 143px;
+			float: left;
+			text-transform: uppercase;
+			border-left: 1px dashed grey;
+
+			a {
+				position: relative;
+				color: white;
+				// padding: px;
+
+				&:hover {
+					color: grey;
+				}
+
+			}
+
+			&:last-child {
+				border-right: 1px dashed grey;
+			}
+			
+		}
+
+	}
+}
+
+.section-1 {
+
+	.section-contents {
+		// float: left;
+	}
+
+	.item-1 {
+		float: left;
+		// height: 590px;
+		background-color: #76C7A3;
+		
+		.first-column {
+			text-align: center;
+			padding: 160px 0 230px 0;
+
+			img {
+				width: 315px;
+			}
+		}
+
+		.second-column {
+			padding: 50px;
+			text-align: center;
+			h3 {
+				text-align: center;
+				font-size: 2.8em;
+				padding-bottom: 20px;
+			}
+			p {
+				font-size: 1.1em;
+				text-align: left;
+				line-height: 1.8em;
+			}
+
+			.mtv {
+				text-align: center;
+				color: white;
+			}
+
+			.star {
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 50px;
+			}
+
+			.arrow {
+				text-align: center;
+			}
+
+
+		}
+	}
+
+	.item-2,
+	.item-3,
+	.item-4 {
+		border: 1px solid #e1e1e1;
+		background-color: #f4f4f4;
+		float: left;
+
+		img {
+			width: 100%;
+		}
+
+		h3 {
+			padding: 28px 20px 0 20px;
+			font-size: 1.1em;
+			color: darkblue;
+		}
+
+		p {
+			padding: 10px 20px 20px 20px;
+			font-size: .9em;
+			line-height: 2em;
+		}
+	}
+
+	.show-me-more {
+		text-align: center;
+
+		a {
+			background-color: yellow;
+			color: black;
+		}
+	}
+
+
+
+}
+
+.section-2 {
+
+	img {
+		width: 100%;
+	}
+
+}
+
+.section-3 {
+
+
+	.those-who-teach {
+		width: 100%;
+		img {
+			float: left;
+		}
+
+
+
+	}
+
+	.recent-articles {
+		h4 {
+			text-transform: uppercase;
+		}
+		
+	}
+	
+}
+
+.section-4 {
+
+	.section-contents {
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+		-moz-column-count: 3; /* Firefox */
+		column-count: 3;
+		-webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    	-moz-column-gap: 30px; /* Firefox */
+    	column-gap: 30px;
+    	font-size: 1.2em;
+    	line-height: 1.6em;
+	}
+
+	.text-red {
+		color: red;
+		font-weight: bold;
+	}
+	
+}
+
+.section-5 {
+
+	p {
+		text-align: center;
+		line-height: 1.6em;
+	}
+	
+}
+
+.section-6 {
+	
+}
+
+.section-7 {
+	background-color: $red-color;
+	color: black;
+
+	form {
+		background-color: white;
+		width: 304px;
+		padding: 20px;
+		border-radius: 6px;
+	}
+
+	.come-again {
+		color: white;
+	}
+}
+
+footer {
+	background-color: $black-color;
+	color: $font-light-grey;
+}
+
+
+
