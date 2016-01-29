@@ -1,0 +1,15 @@
+{
+  "name": "week-four",
+  "version": "1.0.0",
+  "description": "Gulp starter kit for sass files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jkhkim90@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
