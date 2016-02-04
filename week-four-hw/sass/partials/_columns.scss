@@ -1,0 +1,44 @@
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: percentage($i / 12);
+        float: left;
+        
+        @include bp-large {
+            width: 100%;
+        }
+    }
+    
+    .offset-#{$i} {
+        margin-left: percentage($i / 12);
+        
+        @include bp-large {
+            margin-left: 0;
+        }
+    }
+}
+
+.row > * {
+    float: left;
+    padding-right: 10px;
+    
+    @include bp-large {
+        padding-right: 0;
+        margin: 20px 0;
+    }
+
+    &:last-child {
+        padding-right: 0;
+    }
+}
+
+.row {
+    
+    float: left;
+    width: 73.060029282577%;
+    margin: 0 13.4699853587115%;
+    
+    @include bp-large {
+        width: 80%;
+        margin: 20px 10%;
+    }
+}

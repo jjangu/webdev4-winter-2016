@@ -1,0 +1,24 @@
+.main-section {
+	font-size: 1.2em;
+	// text-align: center;
+
+	.ingredients {
+		h2 {
+			color: brown;
+		}
+	}
+
+	.recipe {
+		img {
+			// text-align: center;
+			width: 100%;
+		}
+		h2 {
+			color: hotpink;
+		}
+		li {
+			margin: 15px 0;
+			
+		}
+	}
+}

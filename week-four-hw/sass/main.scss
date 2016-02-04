@@ -1,0 +1,35 @@
+@mixin bp-small {
+    @media (max-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+
+@mixin bp-large {
+    @media (max-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html,
+body {
+	// float: left;
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+@import "partials/variables";
+@import "partials/columns";
+@import "partials/header";
+@import "partials/mainsection";
+@import "partials/ingredients";
+@import "partials/footer";

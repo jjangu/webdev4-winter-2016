@@ -1,0 +1,19 @@
+footer {
+	color: violet;
+	background-color: purple;
+
+	p {
+		line-height: 50px;
+	}
+
+	.social {
+		float: right;
+		img {
+			height: 50px;
+
+			@include bp-small {
+				height: 40px;
+			}
+		}
+	}
+}
