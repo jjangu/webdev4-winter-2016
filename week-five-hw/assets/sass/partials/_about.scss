@@ -1,0 +1,42 @@
+.about-section {
+	padding-top: 0;
+	padding-bottom: 0;
+	color: $my-fourth-color;
+
+	.jumbotron {
+		color: white;
+		background-image: url(../img/delanceyPANO1920.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+#tom-about {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: $my-fifth-color;
+	color: $my-dark-color;
+}
+
+#other-people {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: $my-fourth-color;
+	color: $my-dark-color;
+}
+
+.person {
+	img {
+		height: 250px;
+		width: 100%;
+	}
+}
+
+.cover {
+	object-fit: cover;
+	object-position: top;
+}

@@ -1,0 +1,194 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "partials/variables";
+@import "partials/menu";
+@import "partials/about";
+
+black
+
+a {
+	color: white;
+
+	&:hover {
+		text-decoration: none;
+		color: rgba(255,255,255,0.7);
+	}
+}
+
+.btn-primary {
+	background-color: $my-fifth-color;
+	border-color: $my-fifth-color;
+
+	&:hover {
+		background-color: $my-third-color;
+		border-color: $my-third-color;
+	}
+}
+
+.btn-secondary-outline {
+	border-color: $my-primary-color;
+	color: $my-primary-color;
+
+	&:hover {
+		border-color: $my-primary-color;
+		background-color: $my-primary-color;
+		color: white;
+	}
+}
+
+.navbar-toggler {
+	color: white;
+}
+
+body {
+	background-color: $my-primary-color;
+}
+
+li {
+	list-style-type: none;
+}
+
+.navbar {
+	background-color: rgba(0,0,0,0.5);
+
+	.navbar-nav {
+		margin-bottom: 0;
+	}
+}
+
+.carousel {
+	// margin-bottom: 4rem;
+	.carousel-position {
+		z-index: 10;
+	}
+
+	.carousel-item {
+		height: 100vh;
+		background-color: #777;
+		color: #CF9E2A;
+
+		figure {
+			height: 100%;
+			width: 100%;
+			background-size: cover;
+			background-position: center;
+			-webkit-filter: brightness(0.9) contrast(1.1);
+		}
+		.brick-photo {
+			background-image: url('../img/musselwine.jpg');
+		}
+		.restaurant-photo {
+			background-image: url('../img/delanceyPANO1920.jpg');
+		}
+
+		.wine-photo {
+			background-image: url('../img/winefood.jpg');
+		}
+
+		.carousel-caption {
+			bottom: 50%;
+			transform: translateY(50%);
+		}
+	}
+}
+
+section {
+	// padding: 4rem 0;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.text-section {
+	background-color: $my-fifth-color;
+	color: $my-dark-color;
+}
+
+
+.food-section {
+	background-color: $my-secondary-color;
+	color: white;
+
+	.card {
+		// background-color: white;
+		// color: lightgrey;
+		background-color: transparent;
+		border: none;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.gallery-section {
+	color: white;
+}
+
+.reviews-section {
+	background-color: $my-fourth-color;
+	.media {
+		a {
+			color: tomato;
+		}
+		margin-bottom: 1rem;
+		background-color: white;
+		padding: 1rem;
+		border-radius: .5rem;
+	}
+}
+
+.location-section {
+	background-color: $my-secondary-color;
+	color: white;
+
+	address {
+		margin-bottom: 0;
+		cursor: pointer;
+		&:hover {
+			color: rgba(255,255,255,0.7);
+		}
+	}
+
+	.address {
+		margin-bottom: 1rem;
+	}
+
+	.tele {
+		color: $my-fifth-color;
+
+		&:hover {
+			color: rgba(207,158,42,0.7);
+		}
+	}
+
+}
+
+#map {
+	height: 400px;
+	background-color: #ccc
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 2rem;
+	color: $my-fourth-color;
+	a {
+		color: $my-fourth-color;
+		&:hover {
+			color: #70675A;
+		}
+	}
+	.navbar {
+		// text-align: center;
+		background-color: transparent;
+	}
+	.navbar-nav{
+	    display: inline-block;
+	    float: none;
+	}
+	.social {
+		display: inline-block;
+		img {
+			width: 50px;
+		}
+	}
+}

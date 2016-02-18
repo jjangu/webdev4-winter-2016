@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tom's Bistro</title>
+	<link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top navbar-dark">
+		<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+			&#9776;
+		</button>
+		<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
+			<a class="navbar-brand" href="#">Tom's Bistro</a>
+			<ul class="navbar-nav pull-sm-right pull-xs-left">
+				<li class="nav-item">
+					<a href="#" class="nav-link active">
+						Home
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="./menu.html" class="nav-link">
+						Menu
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="./about.html" class="nav-link">
+						About
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						Press
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Carousel
+	================================================== -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<!-- <img class="first-slide" src="./assets/img/brick-wallpaper-4.jpg" alt="First slide"> -->
+				<figure class="restaurant-photo"></figure>
+				<div class="container">
+					<div class="carousel-caption text-xs-left">
+						<h1>"Classy, authentic" new-world Italian restaurant</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Make a reservation</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<!-- <img class="second-slide" src="./assets/img/delanceyPANO1920.jpg" alt="Second slide"> -->
+				<figure class="brick-photo"></figure>
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>"The word 'bistro' is classy as sh*t."</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<!-- <img class="third-slide" src="./assets/img/delanceyPANO1920.jpg" alt="Third slide"> -->
+				<figure class="wine-photo"></figure>
+				<div class="container">
+					<div class="carousel-caption text-xs-left">
+						<h1>We have wine.</h1>
+						<p><!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. --></p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- /.carousel -->
+
+	<section class="text-section">
+		<div class="container text-xs-center">
+			<h2>It's so great!</h2>
+			<p>What separates this restaurant from others is that it's owned by Tom!</p>
+		</div>
+	</section>
+
+
+	<section class="food-section row">
+		<div class="container">
+			<h2>Check out the food!</h2>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/mariasthumbanner.jpg" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">This is Lunch</h4>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/mariasthumbanner.jpg" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Dinner Maybe</h4>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Button</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="./assets/img/mariasthumbanner.jpg" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Wine?</h4>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Button</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="gallery-section">
+		<div class="container">
+			<h2>#TomsBistro</h2>
+			<!-- SnapWidget -->
+			<script src="http://snapwidget.com/js/snapwidget.js"></script>
+			<iframe src="http://snapwidget.com/in/?h=dG9tc2Jpc3Ryb3xpbnwxMjV8NHwyfHxub3wwfGZhZGVJbnxvblN0YXJ0fG5vfHllcw==&ve=180216" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+		</div>
+	</section>
+
+	<section class="text-section">
+		<div class="container text-xs-center">
+			<h2>This is something to talk about.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt consequatur quod rerum, inventore molestiae autem architecto nisi, vitae cupiditate ullam ad alias rem, eius sint dicta veritatis quos atque? Ullam?</p>
+		</div>
+	</section>
+
+	<section class="reviews-section">
+		<div class="container">
+			<div class="row">
+				<h2>Customer reviews</h2>
+
+				<div class="media col-xs-12" id="jeanralphioreview">
+					<a class="media-left" href="#">
+						<img class="media-object" src="./assets/img/jrsmaller.jpeg" alt="">
+					</a>
+					<div class="media-body">
+						<div class="container col-sm-3">
+							<div><a href="#">Jean-Ralphio S.</a></div>
+							<div><strong>Pawnee, IN</strong></div>
+							<div>☺ <strong>3</strong> friends</div>
+							<div>★ <strong>509</strong> reviews</div>
+						</div>
+						<div class="container col-sm-9">
+							<div><span>★★★★★</span> <span>4/24/2014</span></div>
+							<div></div>
+							<div>B to the I to the S-T-R-O my God it's Tom's Bistr-O my God it's Tom's Bistr-O my God it's Tom's Bistr-O restaurant.</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="media col-xs-12" id="ronswansonreview">
+					<a class="media-left" href="#">
+						<img class="media-object" src="./assets/img/profile.png" alt="">
+					</a>
+					<div class="media-body">
+						<div class="container col-sm-3">
+							<div><a href="#">R. S.</a></div>
+							<div><strong>Pawnee, IN</strong></div>
+							<div>☺ <strong>0</strong> friends</div>
+							<div>★ <strong>1</strong> review</div>
+						</div>
+						<div class="container col-sm-9">
+							<div><span>★★★★☆</span> <span>4/24/2014</span></div>
+							<div></div>
+							<div>This establishment serves food, and I will continue to eat at it.</div>
+						</div>
+					</div>
+				</div>
+				<div class="collapse" id="collapsingReviews">
+					<div class="media col-xs-12">
+						<a class="media-left" href="#">
+							<img class="media-object" src="./assets/img/profile.png" alt="">
+						</a>
+						<div class="media-body">
+							<div class="container col-sm-3">
+								<div><a href="#">Jeremy J.</a></div>
+								<div><strong>Pawnee, IN</strong></div>
+								<div>☺ <strong>35</strong> friends</div>
+								<div>★ <strong>111</strong> reviews</div>
+							</div>
+							<div class="container col-sm-9">
+								<div><span>★☆☆☆☆</span> <span>4/24/2014</span></div>
+								<div></div>
+								<div>It's no Olive Garden. I mean, where's the nonstop garlic breadsticks like at Olive Garden?</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="media col-xs-12">
+						<a class="media-left" href="#">
+							<img class="media-object" src="./assets/img/profile.png" alt="">
+						</a>
+						<div class="media-body">
+							<div class="container col-sm-3">
+								<div><a href="#">Joan C.</a></div>
+								<div><strong>Pawnee, IN</strong></div>
+								<div>☺ <strong>14</strong> friends</div>
+								<div>★ <strong>9</strong> reviews</div>
+							</div>
+							<div class="container col-sm-9">
+								<div><span>★★★★☆</span> <span>4/24/2014</span></div>
+								<div></div>
+								<div>Author/model/home decorator/award-winning (pending) 'Pawnee Today' host Joan Callamezzo endorses this business.</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="media col-xs-12">
+						<a class="media-left" href="#">
+							<img class="media-object" src="./assets/img/profile.png" alt="">
+						</a>
+						<div class="media-body">
+							<div class="container col-sm-3">
+								<div><a href="#">Donna M.</a></div>
+								<div><strong>Pawnee, IN</strong></div>
+								<div>☺ <strong>494</strong> friends</div>
+								<div>★ <strong>625</strong> reviews</div>
+							</div>
+							<div class="container col-sm-9">
+								<div><span>★★★★★</span> <span>4/24/2014</span></div>
+								<div>☑ 1 check-in here</div>
+								<div>All my girls and boys, check out Tom's Bistro a-s-a-possible. Mention my name for some primp VIP service.</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="media col-xs-12">
+						<a class="media-left" href="#">
+							<img class="media-object" src="./assets/img/profile.png" alt="">
+						</a>
+						<div class="media-body">
+							<div class="container col-sm-3">
+								<div><a href="#">Perd H.</a></div>
+								<div><strong>Pawnee, IN</strong></div>
+								<div>☺ <strong>35</strong> friends</div>
+								<div>★ <strong>168</strong> reviews</div>
+							</div>
+							<div class="container col-sm-9">
+								<div><span>★★★★★</span> <span>4/24/2014</span></div>
+								<div></div>
+								<div>The story of this bistro is: it's Tom's.</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<button class="btn btn-secondary-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapsingReviews">Show more reviews</button>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<section class="location-section">
+		<div class="row">
+			<div class="container">
+				<h2>Contact</h2>
+				<div class="col-md-6">
+					<img style="width:100%" src="./assets/img/onlocation.png" alt="">
+					<div class="address col-md-6">
+						<address id="knopestreet">2394 Knope Street <br>Pawnee, IN 46000</address>
+						<a class="tele" href="tel:+5555344789">555-534-4789</a>
+					</div>
+					<div class="address col-md-6">
+						<address id="haverfordway">87124 Haverford Way <br>Pawnee, IN 46000</address>
+						<a class="tele" href="tel:+5556342667">555-634-2667</a>
+					</div>
+					<div class="address col-md-6">
+						<address id="ludgateavenue">3498 Ludgate Avenue <br>Pawnee, IN 46000</address>
+						<a class="tele" href="tel:+5556666666">555-666-6666</a>
+					</div>
+				</div>
+
+				<!-- <img class="col-sm-6" src="./assets/img/map.png" alt=""> -->
+				<div class="col-md-6" id="map">
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer>
+		<div class="navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						Home
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						Food
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						About
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						Press
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+		<p>&copy This was made possible by an awesome dude.</p>
+		<div class="social">
+			<a href="#">
+				<img src="./assets/img/fbicon.png" alt="facebook icon">
+			</a>
+			<a href="#">
+				<img src="./assets/img/twittericon.png" alt="twitter icon">
+			</a>
+			<a href="#">
+				<img src="./assets/img/instaicon.png" alt="instagram icon">
+			</a>
+		</div>
+	</footer>
+
+	
+	
+	<script src="./node_modules/jquery/dist/jquery.js"></script>
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- <script src="./assets/js/instafeed.min.js"></script> -->
+	<script src="./assets/js/script.js"></script>
+	<script src="https:maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+	
+</body>
+</html>

@@ -1,0 +1,44 @@
+.menu-section {
+	padding-top: 0;
+	padding-bottom: 0;
+
+	figure {
+		margin-bottom: 0;
+	}
+	.wine-photo {
+		background-size: cover;
+		background-position: center;
+		// -webkit-filter: brightness(0.8) contrast(1.1);
+		background-image: url('../img/musselwine.jpg');
+		// height: 100%;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.brick-photo {
+			background-image: url('../img/winefood.jpg');
+			background-size: cover;
+			background-position: center;
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
+
+	color: $my-fourth-color;
+	// text-align: center;
+
+	ol {
+		-webkit-padding-start: 0;
+	}
+
+	h2, h3 {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px dashed white;
+	}
+
+	.lunch, .dinner {
+		h4, h5, h6 {
+			font-weight: normal;
+		}
+	}
+}
